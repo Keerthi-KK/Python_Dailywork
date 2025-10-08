@@ -1,0 +1,11 @@
+print("------------------------------------------------")
+Name=input("Enter your Name:")
+Father=input("Enter your Father's Name:")
+Mother=input("Enter your Mother's Name:")
+Sister=input("Enter your Sister's Name:")
+
+print("NAME   : ",Name)
+print("FATHER : ",Father)
+print("MOTHER : ",Mother)
+print("SISTER : ",Sister)
+print("-------------------------------------------------")

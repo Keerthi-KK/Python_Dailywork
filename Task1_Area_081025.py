@@ -1,0 +1,19 @@
+print("Lab Task for 08-10-2025")
+a=10
+print("Area of a square =",a**2)
+l=15
+b=20
+print("Area of rectangle=" ,l*b)
+height=14
+base=20
+area3=1/2*(base*height)
+print("Area of triangle=", area3)
+pi=3.14
+radius=5
+area4=pi*(radius**2)
+print("Area of circle=",area4)
+b1=10
+b2=15
+height1=7
+area5= 1/2*((b1+b2)*height1)
+print("Area of Trapezoid=",area5)

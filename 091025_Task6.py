@@ -1,12 +1,14 @@
 # Program to find eligibility of admission for a Job
 aptitude = int(input("Enter marks in Aptitude: "))
-gd = int(input("Enter marks in GD: "))
-technical = int(input("Enter marks in Technical: "))
-hr = int(input("Enter marks in HR: "))
-
 if aptitude >= 85:
+    print("You have cleared Aptitude!!,Congrats!!")
+    gd = int(input("Enter marks in GD: "))
     if gd >= 90:
+        print("You have cleared Group Discussion !,Congrats!!")
+        technical = int(input("Enter marks in Technical: "))
         if technical >= 80:
+            print("You have Cleared Technical Round!,Congrats!!")
+            hr = int(input("Enter marks in HR: "))
             if hr >= 95:
                 total = aptitude + gd + technical + hr
                 print("Total Marks:", total)
